@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 8",
+	"properties": {
+		"content": {
+			"query": "SELECT COUNT([dbo].[dim_aaduser].[Role])\n FROM [dbo].[dim_aaduser]\n WHERE [dbo].[dim_aaduser].[Role] = 'student'",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqldb_combined_insights",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

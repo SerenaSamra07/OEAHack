@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "create view dim_course as\nSELECT m.[id] as course_id\n,[category]\n,[sortorder]\n,[fullname]\n,[shortname]\n,[idnumber]\n,[summary]\n,[summaryformat]\n,[format]\n,[showgrades]\n,[newsitems]\n,[startdate]\n,[enddate]\n,[relativedatesmode]\n,[marker]\n,[maxbytes]\n,[legacyfiles]\n,[showreports]\n,[visible]\n,[visibleold]\n,[downloadcontent]\n,[groupmode]\n,[groupmodeforce]\n,[defaultgroupingid]\n,[lang]\n,[calendartype]\n,[theme]\n,[timecreated]\n,[timemodified]\n,[requested]\n,[enablecompletion]\n,[completionnotify]\n,[cacherev]\n,[originalcourseid]\n,[showactivitydates]\n,[showcompletionconditions]\n,[AcademicYearSessionId]\n,[ExternalId]\n,[FirstSeenDateTime]\n,[IsActiveInSession]\n,[LastSeenDateTime]\n,[Name]\n,[OrganizationId]\n,[SourceSystemId]\n FROM ldb_dev_s2r_moodle_v4p1.dbo.course as m\n left outer join ldb_dev_s2r_m365_v1p4p0.dbo.course as i\n    on m.category=i.id",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqldb_combined_insights",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

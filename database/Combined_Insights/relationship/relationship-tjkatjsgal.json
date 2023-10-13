@@ -1,0 +1,26 @@
+{
+	"name": "relationship-tjkatjsgal",
+	"properties": {
+		"Name": "relationship-tjkatjsgal",
+		"EntityType": "RELATIONSHIP",
+		"Namespace": {
+			"DatabaseName": "Combined_Insights"
+		},
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"FromTableName": "m_course",
+		"ToTableName": "i_course",
+		"ColumnRelationshipInformations": [
+			{
+				"FromColumnName": "category",
+				"ToColumnName": "Id"
+			}
+		],
+		"RelationshipType": 0,
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 1,
+		"ObjectId": "fcd04c5c-3587-47e6-bb48-3485bd45a873"
+	},
+	"type": "RELATIONSHIP"
+}

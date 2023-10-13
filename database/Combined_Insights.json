@@ -1,0 +1,25 @@
+{
+	"name": "Combined_Insights",
+	"properties": {
+		"Name": "Combined_Insights",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://oea@stoeaoeahack.dfs.core.windows.net/Combined_Insights",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "syn-oea-oeahack-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 3,
+		"ObjectId": "4eac81f7-ee4c-4926-8051-5e976e97c1c6"
+	},
+	"type": "DATABASE"
+}

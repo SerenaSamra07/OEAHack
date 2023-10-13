@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 4",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [course_id]\n,[category]\n,[sortorder]\n,[fullname]\n,[shortname]\n,[idnumber]\n,[OrganizationId]\n,[SourceSystemId]\n,[AcademicYearSessionId]\n,[ExternalId]\n,[FirstSeenDateTime]\n,[IsActiveInSession]\n,[LastSeenDateTime]\n,[Name]\n,[enablecompletion]\n,[completionnotify]\n,[cacherev]\n,[originalcourseid]\n,[showactivitydates]\n,[showcompletionconditions]\n,[lang]\n,[calendartype]\n,[theme]\n,[timecreated]\n,[timemodified]\n,[requested]\n,[visible]\n,[visibleold]\n,[downloadcontent]\n,[groupmode]\n,[groupmodeforce]\n,[defaultgroupingid]\n,[enddate]\n,[relativedatesmode]\n,[marker]\n,[maxbytes]\n,[legacyfiles]\n,[showreports]\n,[summary]\n,[summaryformat]\n,[format]\n,[showgrades]\n,[newsitems]\n,[startdate]\n FROM [dbo].[dim_course]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqldb_combined_insights",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

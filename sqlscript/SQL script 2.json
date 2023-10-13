@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 2",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [Id]\n,[AcademicYearSessionId]\n,[ExternalId]\n,[FirstSeenDateTime]\n,[IsActiveInSession]\n,[LastSeenDateTime]\n,[Name]\n,[OrganizationId]\n,[SourceSystemId]\n FROM [Combined_Insights].[dbo].[i_course]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "Combined_Insights",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}

@@ -1,0 +1,2244 @@
+{
+	"name": "Data Explore",
+	"properties": {
+		"folder": {
+			"name": "Combine Data"
+		},
+		"nbformat": 4,
+		"nbformat_minor": 2,
+		"bigDataPool": {
+			"referenceName": "spark3p3sm",
+			"type": "BigDataPoolReference"
+		},
+		"sessionProperties": {
+			"driverMemory": "28g",
+			"driverCores": 4,
+			"executorMemory": "28g",
+			"executorCores": 4,
+			"numExecutors": 2,
+			"runAsWorkspaceSystemIdentity": false,
+			"conf": {
+				"spark.dynamicAllocation.enabled": "false",
+				"spark.dynamicAllocation.minExecutors": "2",
+				"spark.dynamicAllocation.maxExecutors": "2",
+				"spark.autotune.trackingId": "ac762af1-7004-4343-ae1b-1e64192f0248"
+			}
+		},
+		"metadata": {
+			"saveOutput": true,
+			"synapse_widget": {
+				"version": "0.1",
+				"state": {
+					"2565499d-37f8-4a9b-8df0-adfb201193e7": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "346617E5E8AD4C5C96A345B428660558",
+										"1": "1e0093fa-d5aa-4da2-af9a-e6ce1ff858ed",
+										"2": "0",
+										"3": "ASIC Design 446",
+										"4": "ASIC Design",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "346617E5E8AD4C5C96A345B428660558",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "03A2BF1EEE524B1CADC97E214963BB92",
+										"1": "200de65f-9d4c-4e6f-b274-9a4b3bf99148",
+										"2": "0",
+										"3": "Abstract Data Types 340",
+										"4": "Abstract Data Types",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "03A2BF1EEE524B1CADC97E214963BB92",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "856A511D6D124BE3A61D8A9FBECF89D1",
+										"1": "6603a758-5121-48de-b415-39f19079dc84",
+										"2": "0",
+										"3": "Advanced Computer Architecture 463",
+										"4": "Advanced Computer Architecture",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "856A511D6D124BE3A61D8A9FBECF89D1",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "A41A4D8CF7CD4CCCABA4FE5FC3CE21BF",
+										"1": "dc730cc3-9098-4d24-89ae-1526a0f031f8",
+										"2": "0",
+										"3": "Art Appreciation 102",
+										"4": "Art Appreciation",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "A41A4D8CF7CD4CCCABA4FE5FC3CE21BF",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "7D851C14FFA244CF909340AC7863BAC3",
+										"1": "e752857f-d9be-417c-810f-ff8023181a2c",
+										"2": "0",
+										"3": "Art Seminar 415",
+										"4": "Art Seminar",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "7D851C14FFA244CF909340AC7863BAC3",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "030733285E7943CE86189E39C88A04D6",
+										"1": "193ad8b4-8297-4ddd-8d04-20e6c03b0a3a",
+										"2": "0",
+										"3": "Business Communication 301",
+										"4": "Business Communication",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "030733285E7943CE86189E39C88A04D6",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "A520F654FBCC4CCEBACEC63D2333D771",
+										"1": "fe4e6ac7-4f63-4a6c-a580-d9156460c087",
+										"2": "0",
+										"3": "Business Labor and Human Rights 431",
+										"4": "Business Labor and Human Rights",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "A520F654FBCC4CCEBACEC63D2333D771",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "92C670E8E11A47888A574BE6D6300042",
+										"1": "961623b8-68af-43ab-a3a3-4caf4b961a32",
+										"2": "0",
+										"3": "Ceramics 213",
+										"4": "Ceramics",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "92C670E8E11A47888A574BE6D6300042",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "D4EE7DB0625E4DE6B7AE26B29F297607",
+										"1": "1d8c403e-aa5a-4111-aadb-1ea044167754",
+										"2": "0",
+										"3": "Child Growth and Development 214",
+										"4": "Child Growth and Development",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "D4EE7DB0625E4DE6B7AE26B29F297607",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "57A93AA78A6F492287C15F30F238BE1D",
+										"1": "a6ed3019-62c7-4384-876f-19a65be1cedb",
+										"2": "0",
+										"3": "Collective Bargaining 485",
+										"4": "Collective Bargaining",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "57A93AA78A6F492287C15F30F238BE1D",
+										"34": "1",
+										"35": "0"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "id",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "category",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "sortorder",
+										"type": "int"
+									},
+									{
+										"key": "3",
+										"name": "fullname",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "shortname",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "idnumber",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "summary",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "summaryformat",
+										"type": "int"
+									},
+									{
+										"key": "8",
+										"name": "format",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "showgrades",
+										"type": "int"
+									},
+									{
+										"key": "10",
+										"name": "newsitems",
+										"type": "int"
+									},
+									{
+										"key": "11",
+										"name": "startdate",
+										"type": "timestamp"
+									},
+									{
+										"key": "12",
+										"name": "enddate",
+										"type": "timestamp"
+									},
+									{
+										"key": "13",
+										"name": "relativedatesmode",
+										"type": "int"
+									},
+									{
+										"key": "14",
+										"name": "marker",
+										"type": "int"
+									},
+									{
+										"key": "15",
+										"name": "maxbytes",
+										"type": "int"
+									},
+									{
+										"key": "16",
+										"name": "legacyfiles",
+										"type": "int"
+									},
+									{
+										"key": "17",
+										"name": "showreports",
+										"type": "int"
+									},
+									{
+										"key": "18",
+										"name": "visible",
+										"type": "int"
+									},
+									{
+										"key": "19",
+										"name": "visibleold",
+										"type": "int"
+									},
+									{
+										"key": "20",
+										"name": "downloadcontent",
+										"type": "int"
+									},
+									{
+										"key": "21",
+										"name": "groupmode",
+										"type": "int"
+									},
+									{
+										"key": "22",
+										"name": "groupmodeforce",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "defaultgroupingid",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "lang",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "calendartype",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "theme",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "timecreated",
+										"type": "timestamp"
+									},
+									{
+										"key": "28",
+										"name": "timemodified",
+										"type": "timestamp"
+									},
+									{
+										"key": "29",
+										"name": "requested",
+										"type": "int"
+									},
+									{
+										"key": "30",
+										"name": "enablecompletion",
+										"type": "int"
+									},
+									{
+										"key": "31",
+										"name": "completionnotify",
+										"type": "int"
+									},
+									{
+										"key": "32",
+										"name": "cacherev",
+										"type": "string"
+									},
+									{
+										"key": "33",
+										"name": "originalcourseid",
+										"type": "string"
+									},
+									{
+										"key": "34",
+										"name": "showactivitydates",
+										"type": "int"
+									},
+									{
+										"key": "35",
+										"name": "showcompletionconditions",
+										"type": "int"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"2"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"c7f5de15-18ad-49b1-bfec-40192f7c218e": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "16abe8a8-4fb8-4987-9791-2e3cdfcb6db2"
+									},
+									{
+										"0": "1ba47101-4a85-4470-8dc6-870047bfaa14"
+									},
+									{
+										"0": "6603a758-5121-48de-b415-39f19079dc84"
+									},
+									{
+										"0": "a46ee521-4544-4994-870a-f094ea2bedb3"
+									},
+									{
+										"0": "34be5f28-8025-4310-9124-bcc0f2516df4"
+									},
+									{
+										"0": "a361f18d-055d-47ba-af57-58f9c4554eec"
+									},
+									{
+										"0": "04480303-e381-45f8-82a5-78eedb73e645"
+									},
+									{
+										"0": "53f2c8bb-2a3b-4217-8356-0d6ff8147689"
+									},
+									{
+										"0": "9e5279b5-33d7-4fdb-bac2-c53785d93ab4"
+									},
+									{
+										"0": "d2e5a731-1992-4c1a-be96-ce476f7767e3"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "category",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"336ffc65-627c-435c-a062-e7f502185fb3": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "346617E5E8AD4C5C96A345B428660558",
+										"1": "1e0093fa-d5aa-4da2-af9a-e6ce1ff858ed",
+										"2": "0",
+										"3": "ASIC Design 446",
+										"4": "ASIC Design",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "346617E5E8AD4C5C96A345B428660558",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "03A2BF1EEE524B1CADC97E214963BB92",
+										"1": "200de65f-9d4c-4e6f-b274-9a4b3bf99148",
+										"2": "0",
+										"3": "Abstract Data Types 340",
+										"4": "Abstract Data Types",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "03A2BF1EEE524B1CADC97E214963BB92",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "856A511D6D124BE3A61D8A9FBECF89D1",
+										"1": "6603a758-5121-48de-b415-39f19079dc84",
+										"2": "0",
+										"3": "Advanced Computer Architecture 463",
+										"4": "Advanced Computer Architecture",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "856A511D6D124BE3A61D8A9FBECF89D1",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "A41A4D8CF7CD4CCCABA4FE5FC3CE21BF",
+										"1": "dc730cc3-9098-4d24-89ae-1526a0f031f8",
+										"2": "0",
+										"3": "Art Appreciation 102",
+										"4": "Art Appreciation",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "A41A4D8CF7CD4CCCABA4FE5FC3CE21BF",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "7D851C14FFA244CF909340AC7863BAC3",
+										"1": "e752857f-d9be-417c-810f-ff8023181a2c",
+										"2": "0",
+										"3": "Art Seminar 415",
+										"4": "Art Seminar",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "7D851C14FFA244CF909340AC7863BAC3",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "030733285E7943CE86189E39C88A04D6",
+										"1": "193ad8b4-8297-4ddd-8d04-20e6c03b0a3a",
+										"2": "0",
+										"3": "Business Communication 301",
+										"4": "Business Communication",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "030733285E7943CE86189E39C88A04D6",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "A520F654FBCC4CCEBACEC63D2333D771",
+										"1": "fe4e6ac7-4f63-4a6c-a580-d9156460c087",
+										"2": "0",
+										"3": "Business Labor and Human Rights 431",
+										"4": "Business Labor and Human Rights",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "A520F654FBCC4CCEBACEC63D2333D771",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "92C670E8E11A47888A574BE6D6300042",
+										"1": "961623b8-68af-43ab-a3a3-4caf4b961a32",
+										"2": "0",
+										"3": "Ceramics 213",
+										"4": "Ceramics",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "92C670E8E11A47888A574BE6D6300042",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "D4EE7DB0625E4DE6B7AE26B29F297607",
+										"1": "1d8c403e-aa5a-4111-aadb-1ea044167754",
+										"2": "0",
+										"3": "Child Growth and Development 214",
+										"4": "Child Growth and Development",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "D4EE7DB0625E4DE6B7AE26B29F297607",
+										"34": "1",
+										"35": "0"
+									},
+									{
+										"0": "57A93AA78A6F492287C15F30F238BE1D",
+										"1": "a6ed3019-62c7-4384-876f-19a65be1cedb",
+										"2": "0",
+										"3": "Collective Bargaining 485",
+										"4": "Collective Bargaining",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "57A93AA78A6F492287C15F30F238BE1D",
+										"34": "1",
+										"35": "0"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "id",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "category",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "sortorder",
+										"type": "int"
+									},
+									{
+										"key": "3",
+										"name": "fullname",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "shortname",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "idnumber",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "summary",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "summaryformat",
+										"type": "int"
+									},
+									{
+										"key": "8",
+										"name": "format",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "showgrades",
+										"type": "int"
+									},
+									{
+										"key": "10",
+										"name": "newsitems",
+										"type": "int"
+									},
+									{
+										"key": "11",
+										"name": "startdate",
+										"type": "timestamp"
+									},
+									{
+										"key": "12",
+										"name": "enddate",
+										"type": "timestamp"
+									},
+									{
+										"key": "13",
+										"name": "relativedatesmode",
+										"type": "int"
+									},
+									{
+										"key": "14",
+										"name": "marker",
+										"type": "int"
+									},
+									{
+										"key": "15",
+										"name": "maxbytes",
+										"type": "int"
+									},
+									{
+										"key": "16",
+										"name": "legacyfiles",
+										"type": "int"
+									},
+									{
+										"key": "17",
+										"name": "showreports",
+										"type": "int"
+									},
+									{
+										"key": "18",
+										"name": "visible",
+										"type": "int"
+									},
+									{
+										"key": "19",
+										"name": "visibleold",
+										"type": "int"
+									},
+									{
+										"key": "20",
+										"name": "downloadcontent",
+										"type": "int"
+									},
+									{
+										"key": "21",
+										"name": "groupmode",
+										"type": "int"
+									},
+									{
+										"key": "22",
+										"name": "groupmodeforce",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "defaultgroupingid",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "lang",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "calendartype",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "theme",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "timecreated",
+										"type": "timestamp"
+									},
+									{
+										"key": "28",
+										"name": "timemodified",
+										"type": "timestamp"
+									},
+									{
+										"key": "29",
+										"name": "requested",
+										"type": "int"
+									},
+									{
+										"key": "30",
+										"name": "enablecompletion",
+										"type": "int"
+									},
+									{
+										"key": "31",
+										"name": "completionnotify",
+										"type": "int"
+									},
+									{
+										"key": "32",
+										"name": "cacherev",
+										"type": "string"
+									},
+									{
+										"key": "33",
+										"name": "originalcourseid",
+										"type": "string"
+									},
+									{
+										"key": "34",
+										"name": "showactivitydates",
+										"type": "int"
+									},
+									{
+										"key": "35",
+										"name": "showcompletionconditions",
+										"type": "int"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"2"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"8ed959db-7021-4648-9a13-c2a09078cee5": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "1e0093fa-d5aa-4da2-af9a-e6ce1ff858ed",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "3202206",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "ASIC Design",
+										"7": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "200de65f-9d4c-4e6f-b274-9a4b3bf99148",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "3202214",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Abstract Data Types",
+										"7": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "6603a758-5121-48de-b415-39f19079dc84",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "3202207",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Advanced Computer Architecture",
+										"7": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "dc730cc3-9098-4d24-89ae-1526a0f031f8",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "1202201",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Art Appreciation",
+										"7": "ab2a9665-ce87-4120-a8b5-edd392875e42",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "e752857f-d9be-417c-810f-ff8023181a2c",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "1202219",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Art Seminar",
+										"7": "ab2a9665-ce87-4120-a8b5-edd392875e42",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "193ad8b4-8297-4ddd-8d04-20e6c03b0a3a",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "2202201",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Business Communication",
+										"7": "79ab1377-61f3-4462-95c8-284cb10201b8",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "fe4e6ac7-4f63-4a6c-a580-d9156460c087",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "2202215",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Business Labor and Human Rights",
+										"7": "79ab1377-61f3-4462-95c8-284cb10201b8",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "961623b8-68af-43ab-a3a3-4caf4b961a32",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "1202205",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Ceramics",
+										"7": "ab2a9665-ce87-4120-a8b5-edd392875e42",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "1d8c403e-aa5a-4111-aadb-1ea044167754",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "4202202",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Child Growth and Development",
+										"7": "421b6506-5b1c-45b1-8f9f-d65a35bbcf32",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "a6ed3019-62c7-4384-876f-19a65be1cedb",
+										"1": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"2": "2202217",
+										"3": "2021-08-13 00:00:00",
+										"4": "true",
+										"5": "2022-06-01 00:00:00",
+										"6": "Collective Bargaining",
+										"7": "79ab1377-61f3-4462-95c8-284cb10201b8",
+										"8": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "Id",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "AcademicYearSessionId",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "ExternalId",
+										"type": "string"
+									},
+									{
+										"key": "3",
+										"name": "FirstSeenDateTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "4",
+										"name": "IsActiveInSession",
+										"type": "boolean"
+									},
+									{
+										"key": "5",
+										"name": "LastSeenDateTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "6",
+										"name": "Name",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "OrganizationId",
+										"type": "string"
+									},
+									{
+										"key": "8",
+										"name": "SourceSystemId",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "count",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"0"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					},
+					"8036bdd5-180c-4865-ba12-c8f9103bad23": {
+						"type": "Synapse.DataFrame",
+						"sync_state": {
+							"table": {
+								"rows": [
+									{
+										"0": "030733285E7943CE86189E39C88A04D6",
+										"1": "193ad8b4-8297-4ddd-8d04-20e6c03b0a3a",
+										"2": "0",
+										"3": "Business Communication 301",
+										"4": "Business Communication",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "030733285E7943CE86189E39C88A04D6",
+										"34": "1",
+										"35": "0",
+										"36": "193ad8b4-8297-4ddd-8d04-20e6c03b0a3a",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "2202201",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Business Communication",
+										"43": "79ab1377-61f3-4462-95c8-284cb10201b8",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "03A2BF1EEE524B1CADC97E214963BB92",
+										"1": "200de65f-9d4c-4e6f-b274-9a4b3bf99148",
+										"2": "0",
+										"3": "Abstract Data Types 340",
+										"4": "Abstract Data Types",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "03A2BF1EEE524B1CADC97E214963BB92",
+										"34": "1",
+										"35": "0",
+										"36": "200de65f-9d4c-4e6f-b274-9a4b3bf99148",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "3202214",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Abstract Data Types",
+										"43": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "08DDFD65A495417587EE3E91F25FEECD",
+										"1": "b8884795-71d3-4a10-970b-a88cdeddb96e",
+										"2": "0",
+										"3": "Communication Criticism 315",
+										"4": "Communication Criticism",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "08DDFD65A495417587EE3E91F25FEECD",
+										"34": "1",
+										"35": "0",
+										"36": "b8884795-71d3-4a10-970b-a88cdeddb96e",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "5202208",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Communication Criticism",
+										"43": "c4a80b3b-710f-4207-bf05-7688c6b6d5c5",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "16D3783DEA504F35B66FD00178DFC2CB",
+										"1": "16abe8a8-4fb8-4987-9791-2e3cdfcb6db2",
+										"2": "0",
+										"3": "Understanding Human Differences 205",
+										"4": "Understanding Human Differences",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "16D3783DEA504F35B66FD00178DFC2CB",
+										"34": "1",
+										"35": "0",
+										"36": "16abe8a8-4fb8-4987-9791-2e3cdfcb6db2",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "4202215",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Understanding Human Differences",
+										"43": "421b6506-5b1c-45b1-8f9f-d65a35bbcf32",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "1AC9DCA1874A42B0915A699B7675B90F",
+										"1": "9b62beda-7d06-45cb-bfa8-f4de1d7a8b84",
+										"2": "0",
+										"3": "Engineering Project Management 483",
+										"4": "Engineering Project Management",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "1AC9DCA1874A42B0915A699B7675B90F",
+										"34": "1",
+										"35": "0",
+										"36": "9b62beda-7d06-45cb-bfa8-f4de1d7a8b84",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "3202209",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Engineering Project Management",
+										"43": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "1CC8AEF1B8364E2C8B1C00CEFA109248",
+										"1": "53f2c8bb-2a3b-4217-8356-0d6ff8147689",
+										"2": "0",
+										"3": "Digital Design 420",
+										"4": "Digital Design",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "1CC8AEF1B8364E2C8B1C00CEFA109248",
+										"34": "1",
+										"35": "0",
+										"36": "53f2c8bb-2a3b-4217-8356-0d6ff8147689",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "3202205",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Digital Design",
+										"43": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "1D636A19738249C59B08BB8D41E240F9",
+										"1": "ec5d20cd-68e6-47b2-96b3-c7178ac77d16",
+										"2": "0",
+										"3": "Employee Training and Development 483",
+										"4": "Employee Training and Development",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "1D636A19738249C59B08BB8D41E240F9",
+										"34": "1",
+										"35": "0",
+										"36": "ec5d20cd-68e6-47b2-96b3-c7178ac77d16",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "2202216",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Employee Training and Development",
+										"43": "79ab1377-61f3-4462-95c8-284cb10201b8",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "21A2ECF0DA464984BAA8056F9257AC03",
+										"1": "800e3ba2-e926-489d-bbe1-df91adaa73d5",
+										"2": "0",
+										"3": "Curriculum and Assessment 324",
+										"4": "Curriculum and Assessment",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "21A2ECF0DA464984BAA8056F9257AC03",
+										"34": "1",
+										"35": "0",
+										"36": "800e3ba2-e926-489d-bbe1-df91adaa73d5",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "4202203",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Curriculum and Assessment",
+										"43": "421b6506-5b1c-45b1-8f9f-d65a35bbcf32",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "2234ACFD1FE44510B19607B1D31AD714",
+										"1": "aeec0bd6-813e-49a7-a563-1b07001566b1",
+										"2": "0",
+										"3": "Teaching Social Studies 413",
+										"4": "Teaching Social Studies",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "2234ACFD1FE44510B19607B1D31AD714",
+										"34": "1",
+										"35": "0",
+										"36": "aeec0bd6-813e-49a7-a563-1b07001566b1",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "4202206",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Teaching Social Studies",
+										"43": "421b6506-5b1c-45b1-8f9f-d65a35bbcf32",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									},
+									{
+										"0": "2481F408C8FF44C99E64CF522F323EEF",
+										"1": "145ef35e-d947-4726-8b23-f5ea9f2c783b",
+										"2": "0",
+										"3": "Web Application Development 402",
+										"4": "Web Application Development",
+										"6": "Course in education system",
+										"7": "0",
+										"8": "topics",
+										"9": "1",
+										"10": "1",
+										"11": "2022-01-01 00:00:00",
+										"12": "2022-06-01 00:00:00",
+										"13": "0",
+										"14": "0",
+										"15": "0",
+										"16": "0",
+										"17": "0",
+										"18": "1",
+										"19": "1",
+										"21": "0",
+										"22": "0",
+										"23": "0",
+										"24": "en",
+										"25": "gregorian",
+										"27": "2022-01-01 00:00:00",
+										"29": "0",
+										"30": "0",
+										"31": "0",
+										"32": "0",
+										"33": "2481F408C8FF44C99E64CF522F323EEF",
+										"34": "1",
+										"35": "0",
+										"36": "145ef35e-d947-4726-8b23-f5ea9f2c783b",
+										"37": "ada98861-a68d-4bc0-ad41-ed283d16e1ad",
+										"38": "3202219",
+										"39": "2021-08-13 00:00:00",
+										"40": "true",
+										"41": "2022-06-01 00:00:00",
+										"42": "Web Application Development",
+										"43": "00b46bad-eb1d-41d3-ad11-16095144a56f",
+										"44": "a644a836-3b7d-4f02-8faf-1b2091258163"
+									}
+								],
+								"schema": [
+									{
+										"key": "0",
+										"name": "id",
+										"type": "string"
+									},
+									{
+										"key": "1",
+										"name": "category",
+										"type": "string"
+									},
+									{
+										"key": "2",
+										"name": "sortorder",
+										"type": "int"
+									},
+									{
+										"key": "3",
+										"name": "fullname",
+										"type": "string"
+									},
+									{
+										"key": "4",
+										"name": "shortname",
+										"type": "string"
+									},
+									{
+										"key": "5",
+										"name": "idnumber",
+										"type": "string"
+									},
+									{
+										"key": "6",
+										"name": "summary",
+										"type": "string"
+									},
+									{
+										"key": "7",
+										"name": "summaryformat",
+										"type": "int"
+									},
+									{
+										"key": "8",
+										"name": "format",
+										"type": "string"
+									},
+									{
+										"key": "9",
+										"name": "showgrades",
+										"type": "int"
+									},
+									{
+										"key": "10",
+										"name": "newsitems",
+										"type": "int"
+									},
+									{
+										"key": "11",
+										"name": "startdate",
+										"type": "timestamp"
+									},
+									{
+										"key": "12",
+										"name": "enddate",
+										"type": "timestamp"
+									},
+									{
+										"key": "13",
+										"name": "relativedatesmode",
+										"type": "int"
+									},
+									{
+										"key": "14",
+										"name": "marker",
+										"type": "int"
+									},
+									{
+										"key": "15",
+										"name": "maxbytes",
+										"type": "int"
+									},
+									{
+										"key": "16",
+										"name": "legacyfiles",
+										"type": "int"
+									},
+									{
+										"key": "17",
+										"name": "showreports",
+										"type": "int"
+									},
+									{
+										"key": "18",
+										"name": "visible",
+										"type": "int"
+									},
+									{
+										"key": "19",
+										"name": "visibleold",
+										"type": "int"
+									},
+									{
+										"key": "20",
+										"name": "downloadcontent",
+										"type": "int"
+									},
+									{
+										"key": "21",
+										"name": "groupmode",
+										"type": "int"
+									},
+									{
+										"key": "22",
+										"name": "groupmodeforce",
+										"type": "int"
+									},
+									{
+										"key": "23",
+										"name": "defaultgroupingid",
+										"type": "string"
+									},
+									{
+										"key": "24",
+										"name": "lang",
+										"type": "string"
+									},
+									{
+										"key": "25",
+										"name": "calendartype",
+										"type": "string"
+									},
+									{
+										"key": "26",
+										"name": "theme",
+										"type": "string"
+									},
+									{
+										"key": "27",
+										"name": "timecreated",
+										"type": "timestamp"
+									},
+									{
+										"key": "28",
+										"name": "timemodified",
+										"type": "timestamp"
+									},
+									{
+										"key": "29",
+										"name": "requested",
+										"type": "int"
+									},
+									{
+										"key": "30",
+										"name": "enablecompletion",
+										"type": "int"
+									},
+									{
+										"key": "31",
+										"name": "completionnotify",
+										"type": "int"
+									},
+									{
+										"key": "32",
+										"name": "cacherev",
+										"type": "string"
+									},
+									{
+										"key": "33",
+										"name": "originalcourseid",
+										"type": "string"
+									},
+									{
+										"key": "34",
+										"name": "showactivitydates",
+										"type": "int"
+									},
+									{
+										"key": "35",
+										"name": "showcompletionconditions",
+										"type": "int"
+									},
+									{
+										"key": "36",
+										"name": "Id",
+										"type": "string"
+									},
+									{
+										"key": "37",
+										"name": "AcademicYearSessionId",
+										"type": "string"
+									},
+									{
+										"key": "38",
+										"name": "ExternalId",
+										"type": "string"
+									},
+									{
+										"key": "39",
+										"name": "FirstSeenDateTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "40",
+										"name": "IsActiveInSession",
+										"type": "boolean"
+									},
+									{
+										"key": "41",
+										"name": "LastSeenDateTime",
+										"type": "timestamp"
+									},
+									{
+										"key": "42",
+										"name": "Name",
+										"type": "string"
+									},
+									{
+										"key": "43",
+										"name": "OrganizationId",
+										"type": "string"
+									},
+									{
+										"key": "44",
+										"name": "SourceSystemId",
+										"type": "string"
+									}
+								],
+								"truncated": false
+							},
+							"isSummary": false,
+							"language": "scala"
+						},
+						"persist_state": {
+							"view": {
+								"type": "details",
+								"chartOptions": {
+									"chartType": "bar",
+									"aggregationType": "sum",
+									"categoryFieldKeys": [
+										"0"
+									],
+									"seriesFieldKeys": [
+										"2"
+									],
+									"isStacked": false
+								}
+							}
+						}
+					}
+				}
+			},
+			"enableDebugMode": false,
+			"kernelspec": {
+				"name": "synapse_pyspark",
+				"display_name": "Synapse PySpark"
+			},
+			"language_info": {
+				"name": "python"
+			},
+			"a365ComputeOptions": {
+				"id": "/subscriptions/7cbd7b12-7612-410f-a035-0b6f8f657af4/resourceGroups/rg-oea-oeahack/providers/Microsoft.Synapse/workspaces/syn-oea-oeahack/bigDataPools/spark3p3sm",
+				"name": "spark3p3sm",
+				"type": "Spark",
+				"endpoint": "https://syn-oea-oeahack.dev.azuresynapse.net/livyApi/versions/2019-11-01-preview/sparkPools/spark3p3sm",
+				"auth": {
+					"type": "AAD",
+					"authResource": "https://dev.azuresynapse.net",
+					"authHeader": null
+				},
+				"sparkVersion": "3.3",
+				"nodeCount": 3,
+				"cores": 4,
+				"memory": 28,
+				"extraHeader": null
+			},
+			"sessionKeepAliveTimeout": 30
+		},
+		"cells": [
+			{
+				"cell_type": "code",
+				"source": [
+					"\r\n",
+					"%run OEA_py\r\n",
+					"     "
+				],
+				"execution_count": 13
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"#set workspace dev\r\n",
+					"oea.set_workspace('dev')"
+				],
+				"execution_count": 14
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df = spark.sql(\"select * from ldb_dev_s2r_moodle_v4p1.course\")\r\n",
+					"#(df.sort(\"shortname\"))\r\n",
+					"display(df.sort(\"shortname\").limit(10))"
+				],
+				"execution_count": 12
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df = spark.sql(\"select * from ldb_dev_s2r_moodle_v4p1.course\")\r\n",
+					"display(df.sort(\"shortname\").limit(10))"
+				],
+				"execution_count": 9
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df = spark.sql(\"select * from ldb_dev_s2r_m365_v1p4p0.course\")\r\n",
+					"display(df.sort(\"name\").limit(10))"
+				],
+				"execution_count": 10
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": true
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df = spark.sql(\"(select category from ldb_dev_s2r_moodle_v4p1.course) union (select id from ldb_dev_s2r_m365_v1p4p0.course)\")\r\n",
+					"display(df.limit(10))"
+				],
+				"execution_count": 3
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					},
+					"collapsed": false
+				},
+				"source": [
+					"df = spark.sql(\"(SELECT * FROM ldb_dev_s2r_moodle_v4p1.course as a LEFT JOIN ldb_dev_s2r_m365_v1p4p0.course as b ON a.category = b.id)\")\r\n",
+					"display(df.limit(10))"
+				],
+				"execution_count": 5
+			},
+			{
+				"cell_type": "code",
+				"metadata": {
+					"jupyter": {
+						"source_hidden": false,
+						"outputs_hidden": false
+					},
+					"nteract": {
+						"transient": {
+							"deleting": false
+						}
+					}
+				},
+				"source": [
+					"oea.create_sql_db('stage3/Refined/canvas')"
+				]
+			}
+		]
+	}
+}
